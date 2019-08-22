@@ -7,15 +7,21 @@ public class AdventureGame : MonoBehaviour
 {
     // Instance Variable
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    State state;
+
     // Start is called before the first frame update
     void Start()
     {
+
         GameText();  
     }
 
     void GameText()
     {
-        textComponent.text = ("This is going to be the game text");
+        state = startingState;
+        textComponent.text = state.GetStateStory();
     }
 
     // Update is called once per frame
