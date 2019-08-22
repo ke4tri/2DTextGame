@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ad826436881eb41b03df35d1c1b54f, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You are in a strange land. Entered after you thought you had fallen
+    asleep. Its an open\r\nforest.  You are standing at the intersection of a path.
+    but there are two ways to go. \r\nIts like it was a Y. \r\n\r\n1. Right\n2. Left"
